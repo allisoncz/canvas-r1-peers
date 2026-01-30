@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Canvas R1 Peers
+X-WR-TIMEZONE:America/Los_Angeles
+X-WR-CALDESC:The Canvas R1 Peers Group brings together representatives from
+  large public and private research universities to share best practices aro
+ und using Canvas to support teaching and learning. 
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20210409T120000
+DTEND;TZID=America/Los_Angeles:20210409T130000
+RRULE:FREQ=MONTHLY;BYDAY=2FR
+DTSTAMP:20260130T172113Z
+UID:2nbqfv25qo6k8ikdvsb7oi9goi@google.com
+CREATED:20251004T005229Z
+DESCRIPTION:<b>Canvas R1 Peers monthly call</b><br><br><b>Objective</b>: Pr
+ ovide a platform for research universities to exchange ideas around around 
+ LMS and ed tech service management <br> <br><b>Agenda (Google Doc): </b><br
+ ><a href="https://docs.google.com/document/d/1Ri_7h7AurbXTVnAZWkXtKUiuE0L30
+ EfurmPbfOmhTwU/edit" target="_blank">https://docs.google.com/document/d/1Ri
+ _7h7AurbXTVnAZWkXtKUiuE0L30EfurmPbfOmhTwU/edit</a><br><br><b>Zoom link:</b>
+ <br><b>PC\, Mac\, Linux\, iOS or Android</b><br><a href="https://berkeley.z
+ oom.us/j/98515753692?pwd=ZVoxbFBUS2Q5cjczSnh1QVVOZk8zUT09" target="_blank">
+ https://berkeley.zoom.us/j/98515753692?pwd=ZVoxbFBUS2Q5cjczSnh1QVVOZk8zUT09
+ </a><br><br><b>Telephone：</b><br>US: +1 877 369 0926 (Toll Free) or <a href
+ ="https://berkeley.zoom.us/zoomconference?m=LwwQypsNN8wnUDZ420D3j2YKxr5HFrS
+ 9" target="_blank">International Numbers</a><br>Meeting ID: 985 1575 3692<b
+ r>Passcode: 714356<br> <br><b>H.323/SIP Room System:</b><br>H.323: 162.255.
+ 37.11 (US West)\, Meeting ID: 985 1575 3692<br>SIP: <a href="mailto:9851575
+ 3692@zoomcrc.com" target="_blank">98515753692@zoomcrc.com</a>
+LAST-MODIFIED:20260130T164537Z
+LOCATION:Zoom link in Event Details
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Canvas R1 Peers Monthly Call
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
