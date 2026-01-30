@@ -1,0 +1,23 @@
+name: Sync Calendar
+on:
+  schedule:
+    - cron: '0 * * * *' # This runs every hour
+  workflow_dispatch: # This allows you to run it manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Download Calendar
+        run: curl -L "https://calendar.google.com/calendar/ical/c_203a3a5193801957e3b6c16fa0b5c2fe9e808002a16bc668b581980feac1084f%40group.calendar.google.com/private-85b3ea0ef6f89cf2c6145bc30ae9c477/basic.ics" -o calendar.ics
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'Calendar Bot'
+          git config --global user.email 'bot@github.com'
+          git add calendar.ics
+          git commit -m "Update calendar" || exit 0
+          git push
